@@ -64,7 +64,7 @@ export const config = {
           Meet the Judges
         </div>
         <div className="max-w-4xl text-md text-gray-700 dark:text-gray-300 text-center">
-          Our esteemed panel of judges comprises leaders and experts who bring a wealth of knowledge and experience to the table. They will evaluate projects based on innovation, technical excellence, and real-world impact. Get ready to impress them with your creativity and skills!
+          Our esteemed panel of judges comprises leaders and experts who bring a wealth of knowledge and experience to the table. They will be evaluating projects based on innovation, technical excellence, and real-world impact. Get ready to impress them with your creativity and skills!
         </div>
         <div className="flex flex-col gap-10 justify-center">
           {judges.map((item, index) => (

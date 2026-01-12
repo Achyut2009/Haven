@@ -49,24 +49,15 @@ export const config = {
     <div className="flex flex-col">
       <main className="min-h-screen flex flex-col items-center justify-center p-8 relative overflow-hidden">
         <DotPattern
-          className={cn(
-            "[mask-image:radial-gradient(600px_circle_at_center,white,transparent)]"
-          )}
+        className={cn(
+          "[mask-image:radial-gradient(600px_circle_at_center,white,transparent)]"
+        )}
+      />
+      <h1 className="text-7xl font-semibold mb-4 text-pink-600 fill-cyan-500 drop-shadow-xl drop-shadow-pink-600">
+        <TextScramble 
+         text="Welcome to Haven"
         />
-        <h1 className="text-7xl font-semibold mb-4 text-pink-400 fill-cyan-400 drop-shadow-xl drop-shadow-pink-400">
-          <TextScramble text="Haven Hackathon 2025" />
-        </h1>
-        <div className="w-full max-w-5xl mt-12">
-          <CodeComparison
-            beforeCode={beforeCode}
-            afterCode={afterCode}
-            language="typescript"
-            filename="middleware.ts"
-            lightTheme="github-light"
-            darkTheme="github-dark"
-            highlightColor="rgba(101, 117, 133, 0.16)"
-          />
-        </div>
+      </h1>
       </main>
       <div className="flex flex-col gap-5 justify-center items-center p-8">
         <div className="text-7xl font-semibold mb-4 text-pink-400 fill-cyan-400 drop-shadow-lg drop-shadow-pink-400">

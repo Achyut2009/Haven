@@ -1,9 +1,7 @@
 import { DotPattern } from "@/components/ui/dot-pattern";
 import { cn } from "@/lib/utils";
 import TextScramble from "@/components/text-scramble";
-import { CodeComparison } from "@/components/ui/code-comparison";
 import {judges} from "./data";
-
 import Image from "next/image";
 export default function Home() {
   const beforeCode = `import { NextRequest } from 'next/server';

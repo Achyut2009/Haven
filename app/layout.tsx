@@ -13,7 +13,7 @@ const inter = Inter({
 
 export const metadata: Metadata = {
   title: "Haven",
-  description: "Created by Achyut2009 a github",
+  description: "Created by Achyut2009 a github developer",
 };
 
 export default function RootLayout({

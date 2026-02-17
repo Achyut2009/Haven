@@ -53,7 +53,7 @@ export const config = {
       />
       <h1 className="text-7xl font-semibold mb-4 text-pink-600 fill-cyan-500 drop-shadow-xl drop-shadow-pink-600">
         <TextScramble 
-         text="Welcome to Haven"
+         text="Welcome to Haven yo!!!"
         />
       </h1>
       </main>
